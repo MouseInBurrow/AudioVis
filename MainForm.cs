@@ -14,7 +14,8 @@ namespace AudioMixerApp
         private List<AppPreset> presets = new List<AppPreset>();
         private List<string> monitoredApps = new List<string>();
         private List<AudioSessionInfo> cachedSessions = new List<AudioSessionInfo>();
-        private string presetsPath = "presets.json";
+        private string presetsPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "AudioMixerApp", "presets.json");
+
 
         private Panel presetsPanel;
         private ListBox modernPresetList;
