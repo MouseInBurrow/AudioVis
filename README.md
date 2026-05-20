@@ -1,3 +1,5 @@
+![Icon](https://github.com/MouseInBurrow/AudioVis/raw/master/Image.png)
+
 # RU 🇷🇺
 
 ## Аудио микшкер звука
